@@ -5,7 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import ErrorMessage from "../component/errorMessage";
 import Loader from "../component/loader";
 
-const KEY = "7106cd23";
+const KEY = "7106cd23"; //API KEY
 
 function MovieDetails({ info }) {
   const { id } = useParams();
